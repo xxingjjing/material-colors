@@ -65,7 +65,7 @@ impl CustomColorGroup {
                 color: tones.tone(40),
                 on_color: tones.tone(100),
                 color_container: tones.tone(90),
-                on_color_container: tones.tone(10),
+                on_color_container: tones.tone(30),
             },
             dark: ColorGroup {
                 color: tones.tone(80),
