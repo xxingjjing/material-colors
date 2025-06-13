@@ -43,7 +43,7 @@ impl CorePalette {
         let (hue, chroma) = (cam.hue, cam.chroma);
 
         Self::new(
-            TonalPalette::of(hue, 48.0_f64.max(chroma)),
+            TonalPalette::of(hue, 36.0_f64.max(chroma)),
             TonalPalette::of(hue, 16.0),
             TonalPalette::of(hue + 60.0, 24.0),
             TonalPalette::of(hue, 4.0),
